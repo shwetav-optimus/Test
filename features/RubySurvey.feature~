@@ -2,6 +2,7 @@ Feature: Filling online form of Ruby
 Scenario: 
    Given I navigate to the website
    When I fill the first textbox
+   And I fill the second textbox
    And I select a radio button
    And I write the first name
    And I write the last name

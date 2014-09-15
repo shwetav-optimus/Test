@@ -39,7 +39,7 @@ And /^I click on Submit$/ do
 end
 
 Then /^The form must be submitted$/ do
-   puts @browser.title == 'Ruby survey'
+   
 end
 
 

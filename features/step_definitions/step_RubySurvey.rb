@@ -8,10 +8,6 @@ end
 When /^I fill the first textbox$/ do
    @browser.text_field(:name, 'my_text_field').set 'Yes'
 end
-
-And /^I fill the second textbox&/ do
-   @browser.text_field(:id, 'a_text_area').when_present.set 'Ruby is required in the current project on which I am working'
-end
  
 And /^I select a radio button$/ do
    @browser.radio(:id, 'familiar_rails_2').set
