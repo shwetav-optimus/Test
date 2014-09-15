@@ -1,6 +1,6 @@
 require 'watir-webdriver'
 
-Given /^I navigate to the website$/ do
+Given /^I go to the website$/ do
 @browser = Watir::Browser.new
 @browser.goto 'http://www.gmail.com'
 end

@@ -6,6 +6,6 @@ Scenario:
    And I write the first name
    And I write the last name
    And I select the checkbox
-   And I selct from the select list
-   And I click on Submit
-   Then the form must be submitted
+   And I select from the select list
+   Then I click on Submit
+   

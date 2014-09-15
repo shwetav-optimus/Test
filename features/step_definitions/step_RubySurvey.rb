@@ -26,16 +26,14 @@ And /^I select the checkbox$/ do
    @browser.checkbox(:name, 'element_14_3').set
 end
 
-And /^I selct from the select list$/ do
+And /^I select from the select list$/ do
    @browser.select_list(:id, 'usage').select '1-3 years'
 end
 
-And /^I click on Submit$/ do
+Then /^I click on Submit$/ do
    @browser.button(:name, 'submit').click
 end
 
-Then /^The form must be submitted$/ do
-   
-end
+
 
 
