@@ -1,0 +1,16 @@
+require 'watir-webdriver'
+
+Given /^I navigate to Google$/ do
+  @browser = Watir::Browser.new :ff
+  @browser.goto 'http://www.google.co.in'
+end
+
+When /^I enter Wado into the search field$/ do
+  searchField = @browser.text_field(:name, 'q').set 'Wado'
+  searchButton = @browser.button(:name, 'btnG').click
+  end
+
+Then /^the text Ohtsuka should be present$/ do
+  pending # express the regexp above with the code you wish you had
+end
+
