@@ -7,5 +7,6 @@ Scenario:
    And I write the last name
    And I select the checkbox
    And I select from the select list
-   Then I click on Submit
+   And I click on Submit
+   Then I close the Browser
    

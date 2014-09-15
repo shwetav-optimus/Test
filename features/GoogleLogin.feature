@@ -3,5 +3,5 @@ Scenario:
    Given I go to the website
    When I fill in the Username
    And I fill in the Password
-   Then I click on SignIn
-   
+   And I click on SignIn
+   Then I have to close the browser

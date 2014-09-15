@@ -30,10 +30,13 @@ And /^I select from the select list$/ do
    @browser.select_list(:id, 'usage').select '1-3 years'
 end
 
-Then /^I click on Submit$/ do
+And /^I click on Submit$/ do
    @browser.button(:name, 'submit').click
 end
 
+Then /^Then I close the Browser$/ do
+   @browser.close
+end
 
 
 
